@@ -1,0 +1,45 @@
+.head{
+    display: inline-flex;
+}
+
+.bgcolor{
+    background-color: rgb(27, 56, 219);
+}
+
+.bgcolor1{
+    background-color: rgb(15, 70, 151);
+}
+.white{
+    color: white !important;
+
+}
+.icons div a{
+    display: inline-block;
+    color: white;
+}
+.menu-item{
+    display: inline-block;
+    padding: 5px 15px;
+    
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: black;
+}
+.menu-item-active{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: steelblue;
+    color: white;
+    border-radius: 20px;
+}
+ul.nav li a:hover{
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.direction{
+    overflow: scroll;
+}
